@@ -1,0 +1,65 @@
+/* styles.css */
+.top {
+    text-align: center;
+    background: #1A8913;
+    color: white;
+}
+
+body {
+    background-color: #1A8913;
+    color: white;
+}
+
+.container {
+    margin: 12%;
+    text-align: center;
+    color: white;
+    background: #1A8913;
+}
+
+.display {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: white;
+    color: #0a0101;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+
+.container h1 {
+    font-weight: bold;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container h1 span {
+    color: #010110f4;
+    border-bottom: 4px solid rgb(0, 8, 68);
+}
+
+.container img {
+    width: 30px;
+    cursor: pointer;
+}
+
+.display input {
+    border: 0px;
+    outline: 0px;
+    font-size: medium;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 5px;
+    border: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    cursor: pointer;
+}
